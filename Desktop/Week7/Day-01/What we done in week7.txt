@@ -1,0 +1,34 @@
+=====Day-01=====
+
+1. Basic Terminology of Statistics (Population, Sample, Variable, Parameter, Statistic)
+2. Types of Statistics --> Descriptive Statistics & Inferential Statistics
+3. Measures of Central Tendency --> Mean, Median, Mode
+4. Categorizing attributes into Categorical or Numerical
+5. Identifying missing values in a dataset(loan_approved.csv) --> df['attribute_name'].isnull().sum()
+6. Filling Missing Values in dataset(loan_approved.csv) by using mean, median, mode --> df['attribute_name'].fillna(df['attribute_name'].mode()[0]
+7. Encoding(One hot Encoding, Label Encoding)
+
+=====Day-02=====
+
+1. Z-Score
+2. Chi Square Test
+3. T-Test
+4. ANOVA
+5. IQR
+6. Quartiles
+7. Outlier Analysis
+
+
+======Data Analysis======
+
+1. Data Collection
+2. Data Preprocessing
+	i. Data Cleaning
+		-Filling Missing Values
+		-Remove Noisy Data
+		-Remove Duplicate Values
+	ii. Data Transformation
+		-Data Normalization(Min-Max, Decimal Scaling, Z-Score)
+	iii. Data Reduction
+3. Exploratory Data Analysis
+4. Data Visualization (Matplotlib & Seaborn)
